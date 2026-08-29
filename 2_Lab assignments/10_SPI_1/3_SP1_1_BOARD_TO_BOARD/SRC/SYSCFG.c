@@ -1,0 +1,28 @@
+
+#include "../inc/stm32f401rbt6.h"
+#include "../inc/GPIO.h"
+#include "../inc/systicktimer.h"
+#include "../inc/USART2.h"
+#include "../inc/SYSCFG.h"
+ 
+
+void KM_SYSCFG_CONFIG()
+{
+	 //GPIOC_PUPDR REGISTERS
+	
+	GPIOC_PUPDR &=~(0x003f0000);//CLEAR 16-21 POSITIONS PC 8_9_10
+	GPIOC_PUPDR |=(0x00150000);//SET 01 ON 16_21 POSITIONS PC 8_9_10
+
+	  RCC_APB2ENR |= (1 << 14);//SET CLOCK FOR SYSCFG 14TH BIT
+
+	 //SYSTEM CONFIGURARTIN PC 8-9-10
+ SYSCFG_EXTICR3 &=~(0x0fff);//CLEAR
+ SYSCFG_EXTICR3 |=(0x0222);//SET ON 0010 PC 8-9-10 BITS POSITION
+	
+		 EXTI_FTSR |=(0x7<<8);   // SET FTSR PC 8-9-10
+    	EXTI_IMR |=(0x7<<8);     //SER IMR PC8 PC9
+
+	// NVIC ENABLE
+		NVIC_ISER0 |=(0x1<<23); //BASED ON VRCTRO TABLE SET 23 BIT
+		NVIC_ISER1 |=(0x1<<8);
+}

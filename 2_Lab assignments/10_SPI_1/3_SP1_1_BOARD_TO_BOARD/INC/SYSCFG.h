@@ -1,0 +1,2 @@
+
+void KM_SYSCFG_CONFIG();

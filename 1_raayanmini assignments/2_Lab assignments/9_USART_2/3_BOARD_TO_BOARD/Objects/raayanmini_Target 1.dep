@@ -1,0 +1,20 @@
+Dependencies for Project 'raayanmini', Target 'Target 1': (DO NOT MODIFY !)
+F (.\BORAD_TO_BOARD.c)(0x6999B305)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I "C:\Users\sai\OneDrive\Desktop\Documents\1_raayanmini assignments\2_Lab assignments\9_USART_2\3_BOARD_TO_BOARD\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\borad_to_board.o --omf_browse .\objects\borad_to_board.crf --depend .\objects\borad_to_board.d)
+F (..\..\..\6-1_WIFI_RX_LCD_PRINT\SRC\lcd.c)(0x6999A884)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I "C:\Users\sai\OneDrive\Desktop\Documents\1_raayanmini assignments\2_Lab assignments\9_USART_2\3_BOARD_TO_BOARD\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (..\..\..\6-1_WIFI_RX_LCD_PRINT\SRC\../inc/lcd.h)(0x6999A458)
+I (..\..\..\6-1_WIFI_RX_LCD_PRINT\SRC\../inc/stm32f401rbt6.h)(0x6999A454)
+I (..\..\..\6-1_WIFI_RX_LCD_PRINT\SRC\../inc/systicktimer.h)(0x6999A44D)
+I (..\..\..\6-1_WIFI_RX_LCD_PRINT\SRC\../inc/GPIO.h)(0x6999A45E)
+F (..\..\..\6-1_WIFI_RX_LCD_PRINT\INC\lcd.h)(0x6999A458)()
+F (..\..\..\6-1_WIFI_RX_LCD_PRINT\INC\STM32F401RBT6.h)(0x6999A454)()
+F (RTE\Device\STM32F401RBTx\startup_stm32f401xc.s)(0x63746D12)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Users\sai\OneDrive\Desktop\Documents\1_raayanmini assignments\2_Lab assignments\9_USART_2\3_BOARD_TO_BOARD\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 517" --pd "_RTE_ SETA 1" --pd "STM32F401xC SETA 1"--list .\listings\startup_stm32f401xc.lst --xref -o .\objects\startup_stm32f401xc.o --depend .\objects\startup_stm32f401xc.d)
+F (RTE\Device\STM32F401RBTx\system_stm32f4xx.c)(0x63746D12)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I "C:\Users\sai\OneDrive\Desktop\Documents\1_raayanmini assignments\2_Lab assignments\9_USART_2\3_BOARD_TO_BOARD\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x63746D12)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x63746D12)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625DA34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625C678)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625C678)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625C678)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625C678)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x63746D12)
